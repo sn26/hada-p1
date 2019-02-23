@@ -15,7 +15,7 @@ Por eso, necesitamos irnos a sincronización para realizar el respectivo push.
 
 P5->Cuando hacemos "Confirmar por etapas e insertar" lo que hacemos es que se haga tanto el commit como el push correspondeinte de manera seguida, con el fin de que no nos tengamos que ir luego a sincronización y hacer nosotros de forma manual el push correspondiente.
 
-P6-> Cuando hacemos "Confirmar por etapas e insertar" lo que realmente estamos haciendo es hacer tanto el commit del archivo que queremos hacer, como la sincronización de toda la rama en la que  estamos actualmente, haciendo uso del comado pull.
+P6-> Cuando hacemos “Confirmar por etapas y sincronizar” lo que realmente estamos haciendo es hacer tanto el commit del archivo que queremos hacer, como la sincronización de toda la rama en la que  estamos actualmente, haciendo uso del comado pull.
 
 P7-> Cuando le damos a la opción de sincronizar, lo que realmente estamos realizando es un pull. Es decir, nos traemos todo lo que tengamos cambiado en el reposirio remoto directamente a nuestro dispositivo, pasando incluso el repositorio local. Mientras que si realizamos la opción "Extraer", lo que realmente estamos haciendo es usar el comando fecth, de manera que lo que haremos será recuperar solamente los commits que hayamos realizado sobre el repositorio remoto, y que no se encuentren en el local, pasándolos así al local.
 
